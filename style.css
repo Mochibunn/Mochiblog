@@ -38,17 +38,20 @@ footer {
   -khtml-border-radius: 15px;
 }
 .logo {
-  color: #666;
-  font-size: 2em;
-  padding: 1em;
+  display: flex;
+  border-bottom: solid 1px #c0c0c0;
+
 }
 .logo span {
   color: #666;
-  font-size: 1em;
-  padding: 1em;
+  font-size: 0.9rem;
+  padding-top: 2em;
 }
 #content {
   width: 60%;
+}
+#posts a {
+  color: black;
 }
 aside.section {
   background-color: #c0c0c0;
