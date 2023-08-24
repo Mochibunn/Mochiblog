@@ -50,6 +50,9 @@ footer {
 #content {
   width: 60%;
 }
+#posts a {
+  color: black;
+}
 aside.section {
   background-color: #c0c0c0;
   padding: 1.7em;
