@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'ChicagoFLF', Arial, Helvetica, sans-serif;
+  font-family: 'chicagoFLF', Arial, Helvetica, sans-serif;
   src: url(./res/font/ChicagoFLF.woff) format(woff);
   src: url(./res/font/ChicagoFLF.woff2) format(woff2); 
 }
 * {
-  font-family: 'ChicagoFLF';
+  font-family: 'chicagoFLF';
 }
 body {
   background-image: 
@@ -19,7 +19,7 @@ body {
 }
 main {
   overflow: hidden;
-  display: flex;
+  display: block;
   padding: 1.5em;
 }
 footer {
@@ -52,7 +52,7 @@ h6 {
   padding-top: 2em;
 }
 #content {
-  width: 60%;
+  width: 70%;
 }
 #posts img {
   width: 100%;
@@ -60,13 +60,20 @@ h6 {
   object-fit: cover;
   border-radius: 15px;
   transition: all ease-in-out;
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
 }
 #posts img:hover {
-  height: 350px;
+  /* height: 400px;  */
+  width: 130%;
 }
 a {
   color: black;
+}
+aside {
+  text-align: right;
+  width: 100%;
+  border-left: solid 1px #c0c0c0;
+  height: fit-content;
 }
 aside.section {
   background-color: #c0c0c0;
@@ -100,4 +107,14 @@ article h2 {
 article p {
   margin-top: 0.75em;
   padding: 0;
+}
+
+@media screen and (min-width: 1000px) {
+main {
+  display: flex;
+  justify-content: space-between;
+}
+aside {
+  width: 28%;
+}
 }
