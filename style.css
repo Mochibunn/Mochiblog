@@ -9,10 +9,10 @@
 }
 @font-face {
   font-family: "chicagoFLF", Arial, Helvetica, sans-serif;
-  src: url("../Mochiblog/res/font/ChicagoFLF.woff") format("woff"),
-      url("../Mochiblog/res/font/ChicagoFLF.woff2") format("woff2"),
-      url("../Mochiblog/res/font/ChicagoFLF.ttf") format("truetype"),
-      url("../Mochiblog/res/font/ChicagoFLF.otf") format("opentype");
+  src: url("../../Mochiblog/res/font/ChicagoFLF.woff") format("woff"),
+      url("../../Mochiblog/res/font/ChicagoFLF.woff2") format("woff2"),
+      url("../../Mochiblog/res/font/ChicagoFLF.ttf") format("truetype"),
+      url("../../Mochiblog/res/font/ChicagoFLF.otf") format("opentype");
       font-weight: normal;
       font-style: normal;
 }
