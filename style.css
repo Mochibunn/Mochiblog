@@ -43,28 +43,28 @@ h6 {
 }
 .logo {
   display: flex;
+  flex-flow: column;
   border-bottom: solid 1px #c0c0c0;
-
 }
 .logo span {
   color: #666;
   font-size: 0.9rem;
-  padding-top: 2em;
+  padding: 0 0 1em 1em;
 }
 #content {
-  width: 70%;
+  width: fit-content;
 }
 #posts img {
   width: 100%;
-  height: 250px;
+  height: 200px;
   object-fit: cover;
   border-radius: 15px;
   transition: all ease-in-out;
   transition-duration: 0.3s;
 }
 #posts img:hover {
-  /* height: 400px;  */
-  width: 130%;
+  height: 300px;
+  width: 100%;
 }
 a {
   color: black;
@@ -72,10 +72,11 @@ a {
 aside {
   text-align: right;
   width: 100%;
-  border-left: solid 1px #c0c0c0;
+  border-left: none;
+  border-top: solid 1px #c0c0c0;
   height: fit-content;
 }
-aside.section {
+/* aside.section {
   background-color: #c0c0c0;
   padding: 1.7em;
   box-sizing: border-box;
@@ -85,7 +86,7 @@ aside.section h3 {
   color: white;
   padding: 1em;
   margin-top: 0;
-}
+} */
 aside ul{
   list-style: none;
   margin: 0;
@@ -109,12 +110,33 @@ article p {
   padding: 0;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 980px) {
 main {
   display: flex;
   justify-content: space-between;
 }
 aside {
   width: 28%;
+  border-left: solid 1px #c0c0c0;
+  border-top: none;
+}
+#content {
+  width: 70%;
+}
+#posts img {
+  height: 250px;
+}
+#posts img:hover {
+  height: 400px;
+  width: 110%;
+}
+.logo {
+  flex-flow: row;
+  border-bottom: solid 1px #c0c0c0;
+}
+.logo span {
+  color: #666;
+  font-size: 0.9rem;
+  padding: 2em 0 0 0;
 }
 }
