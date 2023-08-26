@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "chicagoFLF", Arial, Helvetica, sans-serif;
   src: url("./res/font/ChicagoFLF.woff") format("woff"),
       url("./res/font/ChicagoFLF.woff2") format("woff2"),
@@ -15,9 +15,15 @@
       url("../../Mochiblog/res/font/ChicagoFLF.otf") format("opentype");
       font-weight: normal;
       font-style: normal;
+} */
+
+@font-face {
+  font-family: 'TulpenOne';
+  src: url('./res/font/tulpenone-regular.ttf') format('truetype');
 }
+
 * {
-  font-family: 'chicagoFLF';
+  font-family: 'TulpenOne';
 }
 body {
   background-image: 
@@ -73,7 +79,7 @@ h6 {
   object-fit: cover;
   border-radius: 15px;
   transition: all ease-in-out;
-  transition-duration: 0.3s;
+  transition-duration: 0.3s; /* TODO Look into the bouncing issues */
 }
 #posts img:hover {
   height: 300px;
