@@ -7,23 +7,14 @@
       font-weight: normal;
       font-style: normal;
 }
+*/
 @font-face {
-  font-family: "chicagoFLF", Arial, Helvetica, sans-serif;
-  src: url("../../Mochiblog/res/font/ChicagoFLF.woff") format("woff"),
-      url("../../Mochiblog/res/font/ChicagoFLF.woff2") format("woff2"),
-      url("../../Mochiblog/res/font/ChicagoFLF.ttf") format("truetype"),
-      url("../../Mochiblog/res/font/ChicagoFLF.otf") format("opentype");
-      font-weight: normal;
-      font-style: normal;
-} */
-
-@font-face {
-  font-family: 'TulpenOne';
-  src: url('./res/font/tulpenone-regular.ttf') format('truetype');
+  font-family: 'ChicagoFLF';
+  src: url('./res/font/chicago-flf.ttf') format('truetype');
 }
 
 * {
-  font-family: 'TulpenOne';
+  font-family: 'ChicagoFLF';
 }
 body {
   background-image: 
