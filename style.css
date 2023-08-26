@@ -1,18 +1,7 @@
-/* @font-face {
-  font-family: "chicagoFLF", Arial, Helvetica, sans-serif;
-  src: url("./res/font/ChicagoFLF.woff") format("woff"),
-      url("./res/font/ChicagoFLF.woff2") format("woff2"),
-      url("./res/font/ChicagoFLF.ttf") format("truetype"),
-      url("./res/font/ChicagoFLF.otf") format("opentype");
-      font-weight: normal;
-      font-style: normal;
-}
-*/
 @font-face {
   font-family: 'ChicagoFLF';
   src: url('./res/font/chicago-flf.ttf') format('truetype');
 }
-
 * {
   font-family: 'ChicagoFLF';
 }
