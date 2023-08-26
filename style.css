@@ -55,13 +55,15 @@ h6 {
 }
 #posts img {
   width: 100%;
-  max-height: 200px;
+  height: 250px;
   object-fit: cover;
   border-radius: 15px;
-  transition: transform 0.3s ease-in-out;
+  transition: all ease-in-out;
+  transition-duration: 0.3s;
 }
 #posts img:hover {
-  transform: scaleY(1.5); /* Increase the vertical scale on hover */
+  height: 300px;
+  width: 100%;
 }
 a {
   color: black;
@@ -121,10 +123,11 @@ aside {
   width: 70%;
 }
 #posts img {
-  height: 250px;
+  height: 300px;
 }
 #posts img:hover {
   height: 400px;
+  width: 100%;
 }
 .logo {
   flex-flow: row;
