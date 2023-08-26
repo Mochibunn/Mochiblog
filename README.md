@@ -1,5 +1,6 @@
+![Bunny winking with a heart logo](https://mochibunn.github.io/Mochiblog/res/img/logo.png)
 # Greetings, nerdettes and nerds alike *!*
-If you are curious to see the currently deployed version of this project, feel free to visit it at https://go.mochibun.me/blog
+If you are curious to see the currently deployed version of this project, feel free to visit it [here!](https://go.mochibun.me/blog "Live version of this project")
 <br>
 <br>
 <br>
